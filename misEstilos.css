@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat;
+    background-image: url(img/raffa.jpeg);
+    background-size: 100%;
+    /*font-family: "Open Sans";*/
+    background-color: #f3f4f6;
+    height: 100vh;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(143, 138, 138);
+    text-align: center;
+}
+
+h1:hover{
+    color: blueviolet;
+}
+p{
+    color: green;
+    border: 1px; border-style: solid;
+    text-align: justify;
+    padding: 16px 8px;
+}
+.normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.destacado{
+    background-color: khaki;
+    padding: 20px;
+    font-family: Montserrat
+}
+
+h2{
+    color: blue;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+img{
+    padding: 10px;
+    width: 100px;
+    
+}
+.calculo{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(197, 186, 186) ;
+}
+.resultado{
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 86px;
+    color: blueviolet;
+    font-family: Montserrat;
+}
+.destacado::first-line{
+    background-color: rgb(43, 226, 171);
+}
+.normal::first-line{
+    background-color: rgb(43, 226, 171); 
+}
+
+.foto{
+    border-radius: 50px;
+}
+/*Estilos para el header*/
+header{
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 8px auto;
+}
+.header-name{
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+.header-inicio{
+    font-size: 16px;
+    line-height: 24px;
+    color: #bb2777;
+}
+.header-button{
+    background-color: #bb2777;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}

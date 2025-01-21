@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calculadora.css">
+
+
+</head>
+
+<body>
+ <div>
+  <header>
+    <a href="contactame.html" class="header-name">Alex Ato</a>
+    <nav>
+      <a href="index.html" class = "header-inicio">Inicio</a>
+      
+   </nav>
+  </header>
+
+  <main class = "container"> 
+    <h1>CALCULADORA DE IMC</h1>
+      <section class = "form-group">
+      <label for="peso">Peso (kg):</label>
+      <input type="text" id="peso"placeholder="Escriba su peso aquí">
+    </section>
+    <section class = "form-group">
+      <label for="altura">Altura (m):</label>
+      <input type="text" id="altura" placeholder="Escriba su altura aquí">
+    </section>
+    <button onclick="calcularIMC( )">Calcular</button>
+    <div id="resultado"></div>
+  </main>
+ <script src="calculadora.js"></script>
+    <h3>Características de la página</h3>
+    <p>👉Página creada con html5, CSS3 y JavaScript</p>
+    <p>👉Ingresa tu altura y peso y se calculará tu índice de masa corporal</p>
+
+ </div>
+</body>
+</html>
